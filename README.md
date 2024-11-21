@@ -64,7 +64,7 @@ o	Save the final modified image to your local directory.
 ```
 import cv2
 # Read the image
-image = cv2.imread('Lokesh.JPG')
+image = cv2.imread('lion.jpg')
 # Display the image in a window
 cv2.imshow('Image Window', image)
 # Wait indefinitely for a key press
@@ -72,7 +72,8 @@ cv2.waitKey(0)
 # Destroy all windows created by OpenCV
 cv2.destroyAllWindows()
 ```
-![image](https://github.com/user-attachments/assets/0b00653c-adbc-440b-9a0f-ac7fa91c08a9)
+![image](https://github.com/user-attachments/assets/c483710d-bc61-40ca-87c8-71c9b8bd7d03)
+
 
 
 ### ii)Draw Shapes and Add Text
@@ -80,7 +81,7 @@ cv2.destroyAllWindows()
 ```
 import cv2
 
-img = cv2.imread("Lokesh.jpg")
+img = cv2.imread("lion.jpg")
 res = cv2.line(img,(10,10),(500-25,500-25),(200,100,205),10)
 
 # Display the HSV image
@@ -88,12 +89,13 @@ cv2.imshow('Image Window', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![image](https://github.com/user-attachments/assets/6f76ae03-923f-46d4-8aa8-2f6e692543eb)
+![image](https://github.com/user-attachments/assets/fa5d1d11-1ca8-4747-9bd8-108630a1af8d)
+
 ```
 import cv2
 
 # Load the image
-img = cv2.imread("Lokesh.jpg")
+img = cv2.imread("lion.jpg")
 
 # Parameters for line drawing
 start_point = (0, 0)  # Top-left corner
@@ -116,7 +118,7 @@ cv2.destroyAllWindows()
 ```
 import cv2
 
-img = cv2.imread("Lokesh.jpg")
+img = cv2.imread("lion.jpg")
 start=(0,0)
 stop=(409,529)
 color=(100,255,100)
@@ -135,7 +137,7 @@ cv2.destroyAllWindows()
 ### iii)Image Color Conversion
 ```
 # Read the image
-image = cv2.imread("Lokesh.JPG")
+image = cv2.imread("lion.jpg")
 
 # Convert to HSV color space
 img_hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
