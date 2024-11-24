@@ -322,9 +322,9 @@ import cv2
 img = cv2.imread("naturek.jpg")
 img = cv2.resize(img,(300,200))
 cv2.imwrite('nature_pic.jpg',img)
+```
+![image](https://github.com/user-attachments/assets/e0e33ee4-f1b7-40c3-8fd9-2f6b5f1221b2)
 
-
-![image](https://github.com/user-attachments/assets/a0c06c12-fc84-491b-8389-1044b5311921)
 
 
 
