@@ -72,7 +72,8 @@ cv2.waitKey(0)
 # Destroy all windows created by OpenCV
 cv2.destroyAllWindows()
 ```
-![image](https://github.com/user-attachments/assets/c483710d-bc61-40ca-87c8-71c9b8bd7d03)
+![image](https://github.com/user-attachments/assets/45bd776f-2bb3-49e3-a5b8-294f1ddf1364)
+
 
 
 
@@ -89,7 +90,8 @@ cv2.imshow('Image Window', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![image](https://github.com/user-attachments/assets/fa5d1d11-1ca8-4747-9bd8-108630a1af8d)
+![image](https://github.com/user-attachments/assets/17c3866e-9b30-4193-8848-f2e8fea030a8)
+
 
 ```
 import cv2
