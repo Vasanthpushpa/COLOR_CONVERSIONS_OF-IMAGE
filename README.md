@@ -97,7 +97,8 @@ plt.axis('off')
 plt.show()
 ```
 
-![image](https://github.com/user-attachments/assets/69e7d8bd-593e-40f6-890e-dfcb9e208acb)
+![Uploading image.png…]()
+
 
 ```
 import cv2
@@ -316,14 +317,13 @@ plt.axis("off")
 
 ### viii)Write and Save the Modified Image
 ```
-# Step 8: Write and Save the Modified Image
-output_path = 'output.jpg'
-cv2.imwrite(output_path, image_with_text)
-print(f"Modified image saved as {output_path}")
-```
-![image](https://github.com/user-attachments/assets/c7102281-b6a6-4d60-9217-f28479b12f61)
+import cv2
+img = cv2.imread("naturek.jpg")
+img = cv2.resize(img,(300,200))
+cv2.imwrite('nature_pic.jpg',img)
 
 
+![image](https://github.com/user-attachments/assets/a0c06c12-fc84-491b-8389-1044b5311921)
 
 
 
